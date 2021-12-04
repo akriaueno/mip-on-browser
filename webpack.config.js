@@ -9,7 +9,7 @@ module.exports = {
     static: {
       directory: `${__dirname}/dist`,
     },
-    host: "0.0.0.0",
+    host: "localhost",
   },
   experiments: {
     topLevelAwait: true,
