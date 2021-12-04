@@ -1,0 +1,29 @@
+{
+  "name": "mip-on-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "glpk.js": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akriaueno/mip-on-browser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akriaueno/mip-on-browser/issues"
+  },
+  "homepage": "https://github.com/akriaueno/mip-on-browser#readme"
+}
